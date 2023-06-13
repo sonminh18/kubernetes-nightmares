@@ -12,7 +12,7 @@ Some `code` goes here.
 
 A plain codeblock:
 
-```
+```yaml
 Some code here
 def myfunction()
 // some comment
