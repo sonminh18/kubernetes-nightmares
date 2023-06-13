@@ -1,5 +1,5 @@
-site_name: MkDocs YouTube Tutorial
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_name: Him's Blog
+site_url: https://sonminh18.github.io/blogs/
 theme:
   name: material
   features:
