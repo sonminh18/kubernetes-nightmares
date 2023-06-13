@@ -20,4 +20,4 @@ theme:
   highlightjs: true
   hljs_languages:
       - yaml
-      - python
+      - py
