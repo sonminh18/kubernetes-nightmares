@@ -28,7 +28,16 @@ theme:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
 
-copyright: Copyright &copy; 2023 Son Nguyen
+copyright: |
+  &copy; 2023 <a href="https://github.com/sonminh18"  target="_blank" rel="noopener">Son Nguyen</a>
