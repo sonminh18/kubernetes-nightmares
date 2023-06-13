@@ -21,3 +21,4 @@ theme:
   hljs_languages:
       - yaml
       - py
+copyright: Copyright &copy; 2023 Son Nguyen
