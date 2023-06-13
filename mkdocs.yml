@@ -22,7 +22,7 @@ theme:
     - python
 
 extra_css:
-    - assets/css/atom-one-dark.css
+    - assets/css/custom-dracula.css
 
 markdown_extensions:
   - pymdownx.highlight:
