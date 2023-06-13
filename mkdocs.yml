@@ -1,7 +1,7 @@
 site_name: Kubernetes Journey
-site_url: https://sonminh18.github.io/blogs/
+site_url: https://sonminh18.github.io/kubernetes-journey/
 theme:
-  name: material
+  name: dracula
   features:
     - navigation.tabs
     - navigation.sections
