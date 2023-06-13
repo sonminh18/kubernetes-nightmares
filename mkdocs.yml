@@ -6,9 +6,10 @@ copyright: Son Nguyen
 
 nav:
     - Home: index.md
-    - Nightmares:
-      - nightmares/network-cni.md
-      - nightmares/setup-k8s.md
+    - Setup Cluster:
+      - k8s-setup/rke-vs-kubekey.md
+    - Network Plugins:
+      - k8s-cni/calico-vs-cilium-ebpf.md
     - About: about.md
 
 theme:
