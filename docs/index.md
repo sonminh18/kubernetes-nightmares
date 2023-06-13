@@ -22,7 +22,7 @@ def myfunction()
 
 Some more code with the `py` at the start:
 
-``` py
+``` python
 import tensorflow as tf
 def whatever()
 ```

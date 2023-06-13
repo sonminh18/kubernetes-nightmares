@@ -20,7 +20,10 @@ theme:
   highlightjs: true
   hljs_languages:
       - yaml
+      - yml
+      - python
       - py
+      - gyp
       
 markdown_extensions:
   - pymdownx.highlight:
