@@ -27,9 +27,7 @@ theme:
       primary: teal
       accent: lime
 
-plugins:
-  - jekyll-seo-tag
-
+plugins: []
 
 markdown_extensions:
   - pymdownx.highlight:
