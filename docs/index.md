@@ -12,10 +12,19 @@ Some `code` goes here.
 
 A plain codeblock:
 
-```yaml
-Some code here
-def myfunction()
-// some comment
+``` yaml
+theme:
+  name: dracula
+  logo: assets/img/dracula.png
+  favicon: assets/img/favicon.ico
+  nav_style: dark
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - yml
+      - python
+      - py
+      - gyp
 ```
 
 #### Code for a specific language
