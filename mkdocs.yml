@@ -20,7 +20,10 @@ theme:
   hljs_languages:
     - yaml
     - python
-      
+
+extra_css:
+    - assets/css/atom-one-dark.css
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
