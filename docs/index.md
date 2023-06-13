@@ -17,14 +17,10 @@ theme:
   name: dracula
   logo: assets/img/dracula.png
   favicon: assets/img/favicon.ico
-  nav_style: dark
   highlightjs: true
   hljs_languages:
-      - yaml
-      - yml
-      - python
-      - py
-      - gyp
+    - yaml
+    - python
 ```
 
 #### Code for a specific language
