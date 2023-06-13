@@ -28,16 +28,8 @@ theme:
       accent: lime
 
 plugins:
-  - social
+  - jekyll-seo-tag
 
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/sonminh18
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/sonnguyenpro/
 
 markdown_extensions:
   - pymdownx.highlight:
