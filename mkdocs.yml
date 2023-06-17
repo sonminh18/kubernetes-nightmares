@@ -67,10 +67,13 @@ theme:
 nav:
   - Blog:
     - blog/index.md
-    
+
 # Plugins
 plugins:
   - blog:
+      enabled: true
+      post_date_format: long
+  - tags:
       enabled: true
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'

@@ -1,4 +1,5 @@
 mkdocs-blog-plugin
+mkdocs-tags-plugin
 mkdocs-material
 mkdocs-material-extensions>=1.1
 mkdocs-redirects>=1.0
