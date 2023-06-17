@@ -65,12 +65,13 @@ theme:
 #     - assets/css/custom-extra.css
 
 nav:
-  - Blog:
-    - blog/index.md
+  - index.md
 
 # Plugins
 plugins:
+  - meta
   - blog:
+      blog_dir: .
       enabled: true
       post_date_format: long
   - tags:
