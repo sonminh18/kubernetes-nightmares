@@ -2,13 +2,13 @@
 
 ---
 
-**DNS in Kubernetes Cluster**
+## DNS in Kubernetes Cluster
 
 DNS is an essential component of any network infrastructure, providing resolution for hostnames to IP addresses. 
 
 In a Kubernetes cluster, DNS plays a critical role in enabling communication between pods and services, as well as with external resources. 
 
-**CoreDNS**
+### CoreDNS
 
 CoreDNS is one of the most popular open-source for DNS service in Kubernetes and is responsible for handling the resolution of service records. 
 
@@ -17,7 +17,7 @@ CoreDNS is one of the most popular open-source for DNS service in Kubernetes and
 CoreDNS acts as a deployment set in the cluster and listens for DNS requests from other pods. 
 When a pod makes a request for a dns record, CoreDNS uses the Kubernetes API server to look up the IP address associated with the requested service. The API server then returns the IP address to CoreDNS, which in turn returns it to the requesting pod.
 
-**NodeLocalDNS**
+### NodeLocalDNS
 
 NodeLocalDNS is a new feature in Kubernetes that acts a DNS cache in the cluster. NodeLocalDNS is also used to resolve external DNS records, such as the IP addresses of external services.
 
@@ -32,7 +32,7 @@ https://github.com/kubernetes/kubernetes/issues/56903
 
 But in the other hand, NodeLocalDNS also has issue if you're using a `headless` service.
 
-**What if DNS component is crashed??**
+## What if DNS component is crashed??
 
 As mentioned above, DNS is one of core component of Kubernetes Cluster, so when it is crashed, it means that all pods in cluster can not resolve DNS, even if pod calls a request to another pod inside cluster. That's really a nightmare if you're running a production.
 
