@@ -2,10 +2,8 @@
 
 ---
 
-
 DNS is an essential component of any network infrastructure, providing resolution for hostnames to IP addresses. In a Kubernetes cluster, DNS plays a critical role in enabling communication between pods and services, as well as with external resources.
-Let's see if we're running a production with Kubernetes, and DNS component is crashed, then all of pods in cluster can not resolve DNS. That is really a nightmare.
-
+What if we're running a production with Kubernetes, and DNS component is crashed, then all of pods in cluster can not resolve DNS. That is really a nightmare.
 
 **CoreDNS**
 
@@ -23,6 +21,6 @@ https://github.com/kubernetes/kubernetes/issues/56903
 
 But in the other hand, NodeLocalDNS also has issue if you're using a `headless` service.
 
-## Combine CoreDNS and NodeLocalDNS, why don't we?
+**Combine CoreDNS and NodeLocalDNS, why don't we?**
 
 ![Image.png](https://raw.githubusercontent.com/sonminh18/kubernetes-nightmares/main/docs/assets/img/posts/HA-DNS.png)
