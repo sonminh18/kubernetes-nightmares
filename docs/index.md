@@ -7,6 +7,8 @@ categories:
 tags:
   - nodelocaldns
   - coredns
+authors:
+  - admin
 ---
 
 # Hello world!
