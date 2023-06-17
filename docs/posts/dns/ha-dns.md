@@ -12,6 +12,8 @@ In a Kubernetes cluster, DNS plays a critical role in enabling communication bet
 
 CoreDNS is one of the most popular open-source for DNS service in Kubernetes and is responsible for handling the resolution of service records. 
 
+![Image.png](https://cilium.io/static/7720169a677cd13bbad2b9c431d560d8/1ab28/ogimage.webp)
+
 CoreDNS acts as a deployment set in the cluster and listens for DNS requests from other pods. 
 When a pod makes a request for a dns record, CoreDNS uses the Kubernetes API server to look up the IP address associated with the requested service. The API server then returns the IP address to CoreDNS, which in turn returns it to the requesting pod.
 
