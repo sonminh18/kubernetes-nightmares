@@ -7,11 +7,11 @@ copyright: Son Nguyen
 nav:
     - Home: index.md
     - Setup Cluster:
-      - k8s/setup/rke-vs-kubekey.md
+      - posts/setup/rke-vs-kubekey.md
     - Network Plugins:
-      - k8s/cni/calico-vs-cilium-ebpf.md
+      - posts/cni/calico-vs-cilium-ebpf.md
     - DNS:
-      - k8s/dns/ha-dns.md
+      - posts/dns/ha-dns.md
     - About: about.md
 
 theme:
