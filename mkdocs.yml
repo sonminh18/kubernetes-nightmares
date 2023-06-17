@@ -22,17 +22,17 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    - content.tabs.link
+    # - content.tabs.link
     - content.tooltips
-    - header.autohide
-    - navigation.expand
+    # - header.autohide
+    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    - navigation.instant
-    - navigation.prune
+    # - navigation.instant
+    # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -64,8 +64,14 @@ theme:
 #     - assets/css/custom-dracula.css
 #     - assets/css/custom-extra.css
 
+nav:
+  - Blog:
+    - blog/index.md
+    
 # Plugins
 plugins:
+  - blog:
+      enabled: true
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
