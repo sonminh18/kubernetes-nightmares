@@ -2,8 +2,6 @@
 
 ---
 
-![Image.png](https://miro.medium.com/v2/resize:fit:1400/1*Xgv-uxWEqUC9ptuTFSHuPQ.png)
-
 **DNS in Kubernetes Cluster**
 
 DNS is an essential component of any network infrastructure, providing resolution for hostnames to IP addresses. 
