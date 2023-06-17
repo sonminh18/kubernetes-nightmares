@@ -4,16 +4,6 @@ repo_url: https://github.com/sonminh18/kubernetes-nightmares
 site_url: https://sonminh18.github.io/kubernetes-nightmares/
 copyright: Son Nguyen
 
-nav:
-    - Home: index.md
-    - Setup Cluster:
-      - posts/setup/rke-vs-kubekey.md
-    - Network Plugins:
-      - posts/cni/calico-vs-cilium-ebpf.md
-    - DNS:
-      - posts/dns/ha-dns.md
-    - About: about.md
-
 theme:
   name: dracula
   logo: assets/img/dracula.png
