@@ -69,7 +69,6 @@ nav:
 
 # Plugins
 plugins:
-  - meta
   - blog:
       blog_dir: .
       enabled: true
