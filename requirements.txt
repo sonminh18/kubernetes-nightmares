@@ -16,4 +16,4 @@ mkdocs-plugin-tags
 colorama>=0.4
 regex>=2022.4.24
 requests>=2.26
-mkdocs-dracula-theme
+# mkdocs-dracula-theme
