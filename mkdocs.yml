@@ -25,6 +25,7 @@ theme:
 
 extra_css:
     - assets/css/custom-dracula.css
+    - assets/css/custom-extra.css
 
 markdown_extensions:
   - pymdownx.highlight:
