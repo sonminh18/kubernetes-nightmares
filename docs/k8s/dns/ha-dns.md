@@ -1,7 +1,7 @@
 # Using HA for DNS in Kubernetes Cluster
 
-- DNS is an essential component of any network infrastructure, providing resolution for hostnames to IP addresses. In a Kubernetes cluster, DNS plays a critical role in enabling communication between pods and services, as well as with external resources.
-- Let's see if we're running a production with Kubernetes, and DNS component is crashed, then all of pods in cluster can not resolve DNS. That is really a nightmare.
+DNS is an essential component of any network infrastructure, providing resolution for hostnames to IP addresses. In a Kubernetes cluster, DNS plays a critical role in enabling communication between pods and services, as well as with external resources.
+Let's see if we're running a production with Kubernetes, and DNS component is crashed, then all of pods in cluster can not resolve DNS. That is really a nightmare.
 
 ---
 
