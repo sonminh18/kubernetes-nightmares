@@ -75,8 +75,6 @@ plugins:
       post_date_format: long
   - tags:
       enabled: true
-  - meta:
-      enabled: true
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:

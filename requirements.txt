@@ -11,7 +11,7 @@ pygments>=2.14
 pymdown-extensions>=9.9.1
 mkdocs-material
 mkdocs-blog-plugin
-mkdocs-meta-plugin
+mkdocs-plugin-tags
 # Requirements for plugins
 colorama>=0.4
 regex>=2022.4.24
