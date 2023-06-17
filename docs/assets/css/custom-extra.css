@@ -1,13 +1,19 @@
 h1, h2, h3, h4 {
     margin-top: 1.8rem!important;
-    color: #9580ff;
+    color: chartreuse;
 }
 
 .section-content {
-    color: white;
+    font-size: smaller;
+    color: #afbac4;
 }
 
 strong {
     font-weight: bolder;
     color: chartreuse;
+}
+
+footer {
+    /* position: fixed; */
+    bottom: 0;
 }
