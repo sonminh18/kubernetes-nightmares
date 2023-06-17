@@ -13,8 +13,3 @@ strong {
     font-weight: bolder;
     color: var(--purple);
 }
-
-footer {
-    position: relative;
-    bottom: 0;
-}
