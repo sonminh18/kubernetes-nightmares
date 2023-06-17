@@ -4,6 +4,8 @@ repo_url: https://github.com/sonminh18/kubernetes-nightmares
 site_url: https://sonminh18.github.io/kubernetes-nightmares/
 copyright: Son Nguyen
 
+use_directory_urls: false
+
 theme:
   name: dracula
   logo: assets/img/dracula.png
@@ -18,17 +20,7 @@ extra_css:
     - assets/css/custom-extra.css
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
+  - smarty
   - attr_list
 
 copyright: |
