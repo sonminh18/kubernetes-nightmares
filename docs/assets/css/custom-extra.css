@@ -5,7 +5,7 @@ h1, h2, h3, h4 {
 
 .section-content {
     font-size: smaller;
-    color: #afbac4;
+    color: whitesmoke;
 }
 
 strong {
@@ -14,6 +14,6 @@ strong {
 }
 
 footer {
-    /* position: fixed; */
+    position: relative;
     bottom: 0;
 }
