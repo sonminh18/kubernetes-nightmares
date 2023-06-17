@@ -1,4 +1,4 @@
-mkdocs-material
+mkdocs-material>=9.0
 mkdocs-material-extensions>=1.1
 mkdocs-blog-plugin
 mkdocs-plugin-tags
