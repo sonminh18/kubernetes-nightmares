@@ -27,4 +27,4 @@ But in the other hand, NodeLocalDNS also has issue if you're using a `headless` 
 
 ## Combine CoreDNS and NodeLocalDNS, why don't we?
 
-[![Image.png](https://raw.githubusercontent.com/sonminh18/kubernetes-nightmares/main/docs/assets/img/posts/HA-DNS.png)
+![Image.png](https://raw.githubusercontent.com/sonminh18/kubernetes-nightmares/main/docs/assets/img/posts/HA-DNS.png)

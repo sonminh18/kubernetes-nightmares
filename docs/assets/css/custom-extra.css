@@ -1,8 +1,13 @@
 h1, h2, h3, h4 {
     margin-top: 1.8rem!important;
-    color: darkorchid;
+    color: #9580ff;
 }
 
 .section-content {
     color: white;
+}
+
+strong {
+    font-weight: bolder;
+    color: chartreuse;
 }
