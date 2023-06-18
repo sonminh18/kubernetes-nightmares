@@ -7,10 +7,11 @@ copyright: Son Nguyen
 use_directory_urls: false
 
 theme:
-  name: walt
+  name: github
   logo: assets/img/dracula.png
   favicon: assets/img/favicon.ico
   highlightjs: true
+  hljs_style: github
   hljs_languages:
     - yaml
     - python
