@@ -4,5 +4,6 @@ markdown>=3.2
 
 mkdocs
 mkdocs-dracula-theme
+mkdocs-walt
 pillow>=9.0
 cairosvg>=2.5

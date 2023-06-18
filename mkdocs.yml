@@ -7,7 +7,7 @@ copyright: Son Nguyen
 use_directory_urls: false
 
 theme:
-  name: dracula
+  name: walt
   logo: assets/img/dracula.png
   favicon: assets/img/favicon.ico
   highlightjs: true
@@ -15,9 +15,9 @@ theme:
     - yaml
     - python
 
-extra_css:
-    - assets/css/custom-dracula.css
-    - assets/css/custom-extra.css
+# extra_css:
+#     - assets/css/custom-dracula.css
+#     - assets/css/custom-extra.css
 
 markdown_extensions:
   - smarty
