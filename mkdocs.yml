@@ -7,9 +7,10 @@ copyright: Son Nguyen
 use_directory_urls: false
 
 theme:
-  name: lantana
+  name: custommill
   logo: assets/img/dracula.png
   favicon: assets/img/favicon.ico
+  main_color: '#24292f'
   highlightjs: true
   hljs_style: github
   hljs_languages:

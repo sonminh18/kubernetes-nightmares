@@ -5,11 +5,7 @@ markdown>=3.2
 mkdocs
 ##Themes
 mkdocs-dracula-theme
-mkdocs-walt
-mkdocs-github
-mkdocs-terminal
-mkdocs-gitbook
-lantana
+mkdocs-custommill
 
 pillow>=9.0
 cairosvg>=2.5
