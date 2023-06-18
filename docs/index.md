@@ -11,5 +11,5 @@ authors:
   - admin
 ---
 
-# Hello world!
+# Home
 ...
