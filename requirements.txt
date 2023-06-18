@@ -3,7 +3,10 @@ jinja2>=3.0
 markdown>=3.2
 
 mkdocs
+##Themes
 mkdocs-dracula-theme
 mkdocs-walt
+mkdocs-github
+
 pillow>=9.0
 cairosvg>=2.5
