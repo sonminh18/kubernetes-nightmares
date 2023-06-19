@@ -7,19 +7,18 @@ copyright: Son Nguyen
 use_directory_urls: false
 
 theme:
-  name: custommill
+  name: dracula
   logo: assets/img/dracula.png
   favicon: assets/img/favicon.ico
-  main_color: '#24292f'
   highlightjs: true
   hljs_style: github
   hljs_languages:
     - yaml
     - python
 
-# extra_css:
-#     - assets/css/custom-dracula.css
-#     - assets/css/custom-extra.css
+extra_css:
+    - assets/css/custom-dracula.css
+    - assets/css/custom-extra.css
 
 markdown_extensions:
   - smarty
