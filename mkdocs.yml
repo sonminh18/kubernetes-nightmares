@@ -16,21 +16,21 @@ theme:
   highlightjs: true
 
 plugins:
-- search
-- markdownextradata: {}
+  - search
+  - markdownextradata: {}
 
 extra_css:
-- assets/css/custom-dracula.css
-- assets/css/custom-extra.css
+  - assets/css/custom-dracula.css
+  - assets/css/custom-extra.css
 
 markdown_extensions:
-- codehilite
-- admonition
-- pymdownx.tabbed:
-  alternate_style: true 
-- pymdownx.superfences
-- toc:
-  permalink: true
+  - codehilite
+  - admonition
+  - pymdownx.tabbed:
+    alternate_style: true 
+  - pymdownx.superfences
+  - toc:
+    permalink: true
 
 copyright: |
   &copy; 2023 <a href="https://github.com/sonminh18"  target="_blank" rel="noopener">Son Nguyen</a>
