@@ -27,10 +27,10 @@ markdown_extensions:
   - codehilite
   - admonition
   - pymdownx.tabbed:
-    alternate_style: true 
+      alternate_style: true 
   - pymdownx.superfences
   - toc:
-    permalink: true
+      permalink: true
 
 copyright: |
   &copy; 2023 <a href="https://github.com/sonminh18"  target="_blank" rel="noopener">Son Nguyen</a>
