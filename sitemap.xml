@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sonminh18.github.io/kubernetes-nightmares/index.html</loc>
+         <lastmod>2023-06-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sonminh18.github.io/kubernetes-nightmares/about.html</loc>
+         <lastmod>2023-06-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sonminh18.github.io/kubernetes-nightmares/posts/cni/calico-vs-cilium-ebpf.html</loc>
+         <lastmod>2023-06-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sonminh18.github.io/kubernetes-nightmares/posts/dns/ha-dns.html</loc>
+         <lastmod>2023-06-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sonminh18.github.io/kubernetes-nightmares/posts/setup/rke-vs-kubekey.html</loc>
+         <lastmod>2023-06-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
