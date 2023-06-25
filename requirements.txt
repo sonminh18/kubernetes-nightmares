@@ -5,7 +5,8 @@ markdown>=3.2
 mkdocs
 ##Themes
 mkdocs-dracula-theme
-mkdocs-custommill
+mkdocs-material
+mkdocs-markdownextradata-plugin
 
 pillow>=9.0
 cairosvg>=2.5

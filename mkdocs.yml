@@ -2,27 +2,35 @@ site_name: Kubernetes Nightmares
 repo_name: sonminh18/kubernetes-nightmares
 repo_url: https://github.com/sonminh18/kubernetes-nightmares
 site_url: https://sonminh18.github.io/kubernetes-nightmares/
-copyright: Son Nguyen
 
 use_directory_urls: false
 
 theme:
-  name: dracula
+  name: material
+  palette:
+    primary: blue
+  font:
+    text: 'Work Sans'
   logo: assets/img/dracula.png
   favicon: assets/img/favicon.ico
   highlightjs: true
-  hljs_style: github
-  hljs_languages:
-    - yaml
-    - python
+
+plugins:
+- search
+- markdownextradata: {}
 
 extra_css:
-    - assets/css/custom-dracula.css
-    - assets/css/custom-extra.css
+- assets/css/custom-dracula.css
+- assets/css/custom-extra.css
 
 markdown_extensions:
-  - smarty
-  - attr_list
+- codehilite
+- admonition
+- pymdownx.tabbed:
+  alternate_style: true 
+- pymdownx.superfences
+- toc:
+  permalink: true
 
 copyright: |
   &copy; 2023 <a href="https://github.com/sonminh18"  target="_blank" rel="noopener">Son Nguyen</a>
