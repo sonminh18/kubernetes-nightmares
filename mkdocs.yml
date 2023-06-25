@@ -8,7 +8,7 @@ use_directory_urls: false
 theme:
   name: material
   palette:
-    primary: blue
+    primary: white
   font:
     text: 'Work Sans'
   logo: assets/img/dracula.png
