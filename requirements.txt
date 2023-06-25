@@ -8,5 +8,6 @@ mkdocs-dracula-theme
 mkdocs-material
 mkdocs-markdownextradata-plugin
 
+pymdown-extensions
 pillow>=9.0
 cairosvg>=2.5
